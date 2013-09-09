@@ -1,0 +1,5 @@
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Model\bin\Debug\ShopBackEnd.Model.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Model\bin\Debug\ShopBackEnd.Model.pdb
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Model\obj\Debug\ShopBackEnd.Model.csprojResolveAssemblyReference.cache
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Model\obj\Debug\ShopBackEnd.Model.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Model\obj\Debug\ShopBackEnd.Model.pdb

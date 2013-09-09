@@ -1,0 +1,16 @@
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\ShopBackEnd.Business.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\ShopBackEnd.Business.pdb
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\AutoMapper.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\AutoMapper.Net4.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\AutoMapper.xml
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\obj\Debug\ShopBackEnd.Business.csprojResolveAssemblyReference.cache
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\obj\Debug\ShopBackEnd.Business.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\obj\Debug\ShopBackEnd.Business.pdb
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\log4net.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\log4net.xml
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\ShopBackEnd.Model.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\ShopBackEnd.Repository.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\EntityFramework.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\ShopBackEnd.Model.pdb
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\ShopBackEnd.Repository.pdb
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\EntityFramework.xml
