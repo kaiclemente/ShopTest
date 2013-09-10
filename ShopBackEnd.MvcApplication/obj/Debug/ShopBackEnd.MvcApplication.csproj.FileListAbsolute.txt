@@ -158,3 +158,12 @@ C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication\bi
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication\bin\ShopBackEnd.Model.pdb
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication\bin\AutoMapper.xml
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication\bin\ShopBackEnd.Repository.pdb
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication\bin\ShopBackEnd.Business.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication\bin\ShopBackEnd.Model.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication\bin\AutoMapper.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication\bin\ShopBackEnd.Repository.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication\bin\ShopBackEnd.Business.pdb
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication\bin\ShopBackEnd.Model.pdb
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication\bin\AutoMapper.xml
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication\bin\ShopBackEnd.Repository.pdb
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication\bin\AutoMapper.Net4.dll

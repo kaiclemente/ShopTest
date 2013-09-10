@@ -30,3 +30,5 @@ C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\bin\Debu
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\bin\Debug\EntityFramework.xml
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\obj\Debug\ShopBackEnd.Business.dll
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\obj\Debug\ShopBackEnd.Business.pdb
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\Newtonsoft.Json.xml

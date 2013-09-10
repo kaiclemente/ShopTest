@@ -144,3 +144,13 @@ C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Te
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\AutoMapper.xml
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\ShopBackEnd.Repository.pdb
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\EntityFramework.xml
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\ShopBackEnd.Business.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\ShopBackEnd.Model.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\AutoMapper.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\ShopBackEnd.Repository.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\EntityFramework.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\ShopBackEnd.Business.pdb
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\ShopBackEnd.Model.pdb
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\AutoMapper.xml
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\ShopBackEnd.Repository.pdb
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\EntityFramework.xml

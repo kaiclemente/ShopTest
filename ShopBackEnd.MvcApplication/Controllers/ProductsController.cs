@@ -9,10 +9,10 @@ using ShopBackEnd.Model;
 
 namespace ShopBackEnd.MvcApplication.Controllers
 {
-    public class ProductController : ApiController
+    public class ProductsController : ApiController
     {
         private ProductService _productService;
-        public ProductController()
+        public ProductsController()
         {
             _productService = new ProductService();
         }
@@ -21,6 +21,12 @@ namespace ShopBackEnd.MvcApplication.Controllers
         public Model.DTO.Product Get(int id)
         {
             return _productService.Get(id);
+        }
+
+        [HttpPost]
+        public Model.DTO.Product Insert(Model.DTO.Product product)
+        {
+            return _productService.Add(product);
         }
     }
 }
