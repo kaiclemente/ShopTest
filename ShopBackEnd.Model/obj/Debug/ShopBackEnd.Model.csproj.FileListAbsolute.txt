@@ -5,6 +5,5 @@ D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Model\obj\Debug\ShopBackEnd.M
 D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Model\obj\Debug\ShopBackEnd.Model.pdb
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Model\bin\Debug\ShopBackEnd.Model.dll
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Model\bin\Debug\ShopBackEnd.Model.pdb
-C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Model\obj\Debug\ShopBackEnd.Model.csprojResolveAssemblyReference.cache
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Model\obj\Debug\ShopBackEnd.Model.dll
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Model\obj\Debug\ShopBackEnd.Model.pdb

@@ -52,13 +52,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseRepository\EFBaseRepository.cs" />
-    <Compile Include="BaseRepository\IUnitOfWork.cs" />
+    <Compile Include="Base\DbContextExtension.cs" />
+    <Compile Include="Base\EFBaseRepository.cs" />
+    <Compile Include="Base\IDbContext.cs" />
+    <Compile Include="Base\IObjectState.cs" />
+    <Compile Include="Base\IRepository.cs" />
+    <Compile Include="Base\IUnitOfWork.cs" />
+    <Compile Include="Base\ObjectState.cs" />
+    <Compile Include="Base\Repository.cs" />
+    <Compile Include="Base\RepositoryQuery.cs" />
+    <Compile Include="Base\UnitOfWork.cs" />
     <Compile Include="Contract\Base\IEntity.cs" />
     <Compile Include="Contract\Base\IRepository.cs" />
+    <Compile Include="EFContext.cs" />
     <Compile Include="Product.cs">
       <DependentUpon>ShopDB.tt</DependentUpon>
     </Compile>
+    <Compile Include="GenericRepository.cs" />
     <Compile Include="ProductRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShopDB.Context.cs">

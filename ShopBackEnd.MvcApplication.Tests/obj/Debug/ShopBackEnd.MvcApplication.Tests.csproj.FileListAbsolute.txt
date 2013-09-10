@@ -134,3 +134,13 @@ C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Te
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\obj\Debug\ShopBackEnd.MvcApplication.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\obj\Debug\ShopBackEnd.MvcApplication.Tests.dll
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\obj\Debug\ShopBackEnd.MvcApplication.Tests.pdb
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\ShopBackEnd.Business.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\ShopBackEnd.Model.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\AutoMapper.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\ShopBackEnd.Repository.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\ShopBackEnd.Business.pdb
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\ShopBackEnd.Model.pdb
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\AutoMapper.xml
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\ShopBackEnd.Repository.pdb
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\EntityFramework.xml

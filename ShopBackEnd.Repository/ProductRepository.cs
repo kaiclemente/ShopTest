@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace ShopBackEnd.Repository
 {
-    public class ProductRepository
+    public class ProductRepository : Repository<Product>
     {
+        public ProductRepository(IDbContext context)
+            :base(context)
+        {
+            
+        }
 
+        public Product BestProduct()
+        {
+            return DbSet.First();
+        }
     }
 }

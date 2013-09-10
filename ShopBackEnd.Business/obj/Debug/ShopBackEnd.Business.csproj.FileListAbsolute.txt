@@ -14,6 +14,7 @@ D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\EntityFram
 D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\ShopBackEnd.Model.pdb
 D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\ShopBackEnd.Repository.pdb
 D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\EntityFramework.xml
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\obj\Debug\ShopBackEnd.Business.csprojResolveAssemblyReference.cache
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\bin\Debug\ShopBackEnd.Business.dll
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\bin\Debug\ShopBackEnd.Business.pdb
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\bin\Debug\AutoMapper.dll
@@ -27,6 +28,5 @@ C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\bin\Debu
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\bin\Debug\AutoMapper.xml
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\bin\Debug\log4net.xml
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\bin\Debug\EntityFramework.xml
-C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\obj\Debug\ShopBackEnd.Business.csprojResolveAssemblyReference.cache
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\obj\Debug\ShopBackEnd.Business.dll
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\obj\Debug\ShopBackEnd.Business.pdb

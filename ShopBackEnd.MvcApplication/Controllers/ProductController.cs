@@ -4,14 +4,23 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using ShopBackEnd.Business.Implementations;
+using ShopBackEnd.Model;
 
 namespace ShopBackEnd.MvcApplication.Controllers
 {
     public class ProductController : ApiController
     {
-        public String get()
+        private ProductService _productService;
+        public ProductController()
         {
-            return "";
+            _productService = new ProductService();
+        }
+
+        [HttpGet]
+        public Model.DTO.Product Get(int id)
+        {
+            return _productService.Get(id);
         }
     }
 }

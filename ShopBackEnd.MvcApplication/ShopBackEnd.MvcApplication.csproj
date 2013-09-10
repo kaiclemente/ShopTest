@@ -297,6 +297,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShopBackEnd.Business\ShopBackEnd.Business.csproj">
+      <Project>{fb740050-c867-4d2b-8055-b168978f2600}</Project>
+      <Name>ShopBackEnd.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShopBackEnd.Model\ShopBackEnd.Model.csproj">
+      <Project>{c1641b52-44f8-49d3-b71b-8274987d7dbd}</Project>
+      <Name>ShopBackEnd.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
