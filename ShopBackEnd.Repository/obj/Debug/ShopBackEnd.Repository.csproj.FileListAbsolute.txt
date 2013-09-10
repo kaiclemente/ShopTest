@@ -9,3 +9,14 @@ D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Repository\bin\Debug\ShopBack
 D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Repository\bin\Debug\EntityFramework.dll
 D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Repository\bin\Debug\EntityFramework.xml
 D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Repository\obj\Debug\ShopBackEnd.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Repository\bin\Debug\ShopBackEnd.Repository.dll.config
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Repository\bin\Debug\ShopBackEnd.Repository.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Repository\bin\Debug\ShopBackEnd.Repository.pdb
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Repository\bin\Debug\AutoMapper.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Repository\bin\Debug\AutoMapper.Net4.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Repository\bin\Debug\AutoMapper.xml
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Repository\obj\Debug\ShopBackEnd.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Repository\obj\Debug\ShopBackEnd.Repository.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Repository\obj\Debug\ShopBackEnd.Repository.pdb
