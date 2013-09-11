@@ -20,13 +20,53 @@ namespace ShopBackEnd.MvcApplication.Controllers
         [HttpGet]
         public Model.DTO.Product Get(int id)
         {
-            return _productService.Get(id);
+            Model.DTO.Product item = _productService.Get(id);
+            if (item == null)
+            {
+                //_loggerService.Logger().WarnFormat("Item with id {0} does not exist", id);
+                throw new HttpResponseException(HttpStatusCode.NotFound);
+            }
+            return item;
+        }
+
+        [HttpGet]
+        public IEnumerable<Model.DTO.Product> Get()
+        {
+            return _productService.GetAll();
+        }
+
+        [HttpPut]
+        public HttpResponseMessage Update(int id, Model.DTO.Product item)
+        {
+            item.ID = id;
+            item = _productService.Update(item);
+            var response = Request.CreateResponse<Model.DTO.Product>(HttpStatusCode.OK, item);
+
+            return response;
         }
 
         [HttpPost]
-        public Model.DTO.Product Insert(Model.DTO.Product product)
+        public HttpResponseMessage Insert(Model.DTO.Product item)
         {
-            return _productService.Add(product);
+            item = _productService.Add(item);;
+
+            var response = Request.CreateResponse<Model.DTO.Product>(HttpStatusCode.Created, item);
+
+            string uri = Url.Link("ControllerAndId", new { id = item.ID });
+            response.Headers.Location = new Uri(uri);
+
+            //_loggerService.Logger().InfoFormat("Item created with id {0}", item.Id);
+
+            return response;
         }
+
+        [HttpDelete]
+        public HttpResponseMessage Delete(int id)
+        {
+            _productService.Remove(id);
+            return new HttpResponseMessage(HttpStatusCode.NoContent);
+        }
+
+
     }
 }

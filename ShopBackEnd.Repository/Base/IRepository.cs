@@ -9,7 +9,7 @@ namespace ShopBackEnd.Repository
     public interface IRepository<TEntity> where TEntity : class
     {
         TEntity FindById(object id);
-        void InsertGraph(TEntity entity);
+        IEnumerable<TEntity> GetAll();
         void Update(TEntity entity);
         void Delete(object id);
         void Delete(TEntity entity);

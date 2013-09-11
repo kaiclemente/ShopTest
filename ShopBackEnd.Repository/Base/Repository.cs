@@ -26,14 +26,14 @@ namespace ShopBackEnd.Repository
             return _dbSet.Find(id);
         }
 
-        public virtual void InsertGraph(TEntity entity)
+        public virtual IEnumerable<TEntity> GetAll()
         {
-            _dbSet.Add(entity);
+            return _dbSet.ToList();
         }
-
         public virtual void Update(TEntity entity)
         {
             _dbSet.Attach(entity);
+            
         }
 
         public virtual void Delete(object id)

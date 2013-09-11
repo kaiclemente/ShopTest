@@ -26,8 +26,26 @@ namespace ShopBackEnd.Business.Implementations
             return AutoMapper.Mapper.Map<Product, Model.DTO.Product>(item);
         }
 
-
-
+        public Model.DTO.Product Add(Model.DTO.Product item)
+        {
+            var entity = AutoMapper.Mapper.Map<Model.DTO.Product, Product>(item);
+            using (TransactionScope scope = new TransactionScope())
+            {
+                try
+                {
+                    entity.State = ObjectState.Added;
+                    productRepository.Insert(entity);
+                    _unitOfWork.Save();
+                    scope.Complete();
+                }
+                catch (Exception)
+                {
+                    scope.Dispose();
+                    throw;
+                }
+            }
+            return AutoMapper.Mapper.Map<Product, Model.DTO.Product>(entity);
+        }
 
         public Model.DTO.Product BestProduct()
         {
@@ -36,38 +54,56 @@ namespace ShopBackEnd.Business.Implementations
 
         public IEnumerable<Model.DTO.Product> GetAll()
         {
-            throw new NotImplementedException();
-        }
-
-        public Model.DTO.Product Add(Model.DTO.Product item)
-        {
-            var entity = AutoMapper.Mapper.Map<Model.DTO.Product, Product>(item);
-            using (TransactionScope ctx = new TransactionScope())
-            {
-                try
-                {
-                    
-                   productRepository.Insert(entity);
-                   _unitOfWork.Save();
-                   ctx.Complete();
-                }
-                catch (Exception)
-                {
-                    ctx.Dispose();
-                    throw;
-                }
-            }
-            return AutoMapper.Mapper.Map<Product, Model.DTO.Product>(entity);
+            var list = productRepository.GetAll();
+            return AutoMapper.Mapper.Map<IEnumerable<Product>, IEnumerable<Model.DTO.Product>>(list);
         }
 
         public Model.DTO.Product Update(Model.DTO.Product item)
         {
-            throw new NotImplementedException();
+            var existEntity = productRepository.FindById(item.ID);
+            var entity = AutoMapper.Mapper.Map(item, existEntity);
+            using (TransactionScope scope = new TransactionScope())
+            {
+                try
+                {
+                    entity.State = ObjectState.Modified;
+                    productRepository.Update(entity);
+                    _unitOfWork.Save();
+                    scope.Complete();
+                }
+                catch (Exception)
+                {
+                    scope.Dispose();
+                    throw;
+                }
+            }
+
+            return AutoMapper.Mapper.Map<Product, Model.DTO.Product>(entity);
         }
 
         public bool Remove(int id)
         {
-            throw new NotImplementedException();
+            var entity = productRepository.FindById(id);
+            if (entity == null)
+                return false;
+
+            using (TransactionScope scope = new TransactionScope())
+            {
+                try
+                {
+                    productRepository.Delete(entity);
+                    entity.State = ObjectState.Deleted;
+                    _unitOfWork.Save();
+                    scope.Complete();
+                }
+                catch (Exception)
+                {
+                    scope.Dispose();
+                    throw;
+                }
+            }
+
+            return true;
         }
     }
 }

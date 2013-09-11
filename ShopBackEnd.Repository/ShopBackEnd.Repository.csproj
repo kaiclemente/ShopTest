@@ -62,6 +62,9 @@
     <Compile Include="Base\Repository.cs" />
     <Compile Include="Base\RepositoryQuery.cs" />
     <Compile Include="Base\UnitOfWork.cs" />
+    <Compile Include="Category.cs">
+      <DependentUpon>ShopDB.tt</DependentUpon>
+    </Compile>
     <Compile Include="Contract\Base\IEntity.cs" />
     <Compile Include="Contract\Base\IRepository.cs" />
     <Compile Include="EFContext.cs" />

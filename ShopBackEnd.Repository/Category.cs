@@ -12,13 +12,10 @@ namespace ShopBackEnd.Repository
     using System;
     using System.Collections.Generic;
     
-    public partial class Product : IObjectState
+    public partial class Category : IObjectState
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
-        public decimal Price { get; set; }
-        public bool IsActive { get; set; }
     	public ObjectState State { get; set; }
     }
 }

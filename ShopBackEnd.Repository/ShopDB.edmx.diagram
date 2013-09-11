@@ -5,7 +5,8 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="7e1c9e0685b24fff876a0bfa425b0180" Name="Diagram1">
-        <EntityTypeShape EntityType="ShopDBModel.Product" Width="1.5" PointX="8.0170872826208761" PointY="22.206539775341071" />
+        <EntityTypeShape EntityType="ShopDBModel.Product" Width="1.5" PointX="5.375" PointY="1.5" />
+        <EntityTypeShape EntityType="ShopDBModel.Category" Width="1.5" PointX="0.036822019162039282" PointY="0.26508949709361862" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
