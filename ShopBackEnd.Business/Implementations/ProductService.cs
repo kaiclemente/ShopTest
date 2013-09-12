@@ -7,16 +7,16 @@ using ShopBackEnd.Model;
 using ShopBackEnd.Repository;
 using System.Transactions;
 
-namespace ShopBackEnd.Business.Implementations
+namespace ShopBackEnd.Business
 {
     public class ProductService:IProductService
     {
         private GenericRepository<Product> productRepository;
-        private UnitOfWork _unitOfWork;
+        private IUnitOfWork _unitOfWork;
 
-        public ProductService()
+        public ProductService(IUnitOfWork unitOfWork)
         {
-            _unitOfWork = new UnitOfWork();
+            _unitOfWork = unitOfWork;
             productRepository = new GenericRepository<Product>(_unitOfWork.Context);
         }
 

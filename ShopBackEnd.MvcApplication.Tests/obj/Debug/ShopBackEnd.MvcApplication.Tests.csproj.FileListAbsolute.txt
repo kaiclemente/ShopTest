@@ -154,3 +154,7 @@ D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debu
 D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\AutoMapper.xml
 D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\ShopBackEnd.Repository.pdb
 D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\EntityFramework.xml
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\Autofac.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\Autofac.Integration.WebApi.dll
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\Autofac.xml
+D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.MvcApplication.Tests\bin\Debug\Autofac.Integration.WebApi.xml

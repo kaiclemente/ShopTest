@@ -12,7 +12,7 @@ namespace ShopBackEnd.Repository
         void Dispose();
         void Dispose(bool disposing);
         IRepository<T> Repository<T>() where T : class;
-
+        IDbContext Context { get; }
         void Save();
     }
 }
