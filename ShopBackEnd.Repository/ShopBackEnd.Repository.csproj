@@ -53,7 +53,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\DbContextExtension.cs" />
-    <Compile Include="Base\EFBaseRepository.cs" />
     <Compile Include="Base\IDbContext.cs" />
     <Compile Include="Base\IObjectState.cs" />
     <Compile Include="Base\IRepository.cs" />
@@ -65,7 +64,6 @@
     <Compile Include="Category.cs">
       <DependentUpon>ShopDB.tt</DependentUpon>
     </Compile>
-    <Compile Include="Contract\Base\IEntity.cs" />
     <Compile Include="Contract\IProductRepository.cs" />
     <Compile Include="EFContext.cs" />
     <Compile Include="Product.cs">
@@ -113,7 +111,9 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Contract\Base\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

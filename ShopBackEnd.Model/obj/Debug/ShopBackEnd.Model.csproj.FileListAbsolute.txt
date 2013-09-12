@@ -7,3 +7,6 @@ C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Model\bin\Debug\S
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Model\bin\Debug\ShopBackEnd.Model.pdb
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Model\obj\Debug\ShopBackEnd.Model.dll
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Model\obj\Debug\ShopBackEnd.Model.pdb
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Model\obj\Debug\ShopBackEnd.Model.csprojResolveAssemblyReference.cache

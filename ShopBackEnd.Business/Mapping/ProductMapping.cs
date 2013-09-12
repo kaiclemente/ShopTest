@@ -3,7 +3,7 @@ using ShopBackEnd.Repository;
 using ShopBackEnd.Model;
 
 
-namespace ShopBackEnd.Business.Mapping
+namespace ShopBackEnd.Business
 {
     public class ProductMapping : Profile
     {

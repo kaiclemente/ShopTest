@@ -176,10 +176,12 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DependencyContainer\DependencyResolverfactory.cs" />
+    <Compile Include="Filters\UnhandledExceptionFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -309,6 +311,10 @@
     <ProjectReference Include="..\ShopBackEnd.Business\ShopBackEnd.Business.csproj">
       <Project>{fb740050-c867-4d2b-8055-b168978f2600}</Project>
       <Name>ShopBackEnd.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShopBackEnd.Common\ShopBackEnd.Common.csproj">
+      <Project>{6b7905ff-4477-464b-a0c1-591b6af9a80b}</Project>
+      <Name>ShopBackEnd.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\ShopBackEnd.Model\ShopBackEnd.Model.csproj">
       <Project>{c1641b52-44f8-49d3-b71b-8274987d7dbd}</Project>

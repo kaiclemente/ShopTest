@@ -8,7 +8,7 @@ using System.Runtime.Serialization;
 namespace ShopBackEnd.Model.DTO
 {
     [DataContract]
-    public class Product
+    public class Product : BaseDTO
     {
         [DataMember]
         public int ID { get; set; }

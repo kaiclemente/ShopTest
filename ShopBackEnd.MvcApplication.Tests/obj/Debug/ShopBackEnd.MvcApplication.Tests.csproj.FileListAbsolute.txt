@@ -168,3 +168,7 @@ C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Te
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\System.Web.Http.Tracing.xml
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\Autofac.xml
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\Autofac.Integration.WebApi.xml
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\ShopBackEnd.Common.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\log4net.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\ShopBackEnd.Common.pdb
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.MvcApplication.Tests\bin\Debug\log4net.xml

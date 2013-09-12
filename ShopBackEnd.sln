@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopBackEnd.Repository", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopBackEnd.Business", "ShopBackEnd.Business\ShopBackEnd.Business.csproj", "{FB740050-C867-4D2B-8055-B168978F2600}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopBackEnd.Common", "ShopBackEnd.Common\ShopBackEnd.Common.csproj", "{6B7905FF-4477-464B-A0C1-591B6AF9A80B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{FB740050-C867-4D2B-8055-B168978F2600}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB740050-C867-4D2B-8055-B168978F2600}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB740050-C867-4D2B-8055-B168978F2600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B7905FF-4477-464B-A0C1-591B6AF9A80B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7905FF-4477-464B-A0C1-591B6AF9A80B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7905FF-4477-464B-A0C1-591B6AF9A80B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7905FF-4477-464B-A0C1-591B6AF9A80B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

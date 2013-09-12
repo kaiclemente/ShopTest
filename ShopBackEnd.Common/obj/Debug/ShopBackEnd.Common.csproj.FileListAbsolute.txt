@@ -1,0 +1,7 @@
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Common\bin\Debug\ShopBackEnd.Common.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Common\bin\Debug\ShopBackEnd.Common.pdb
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Common\bin\Debug\log4net.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Common\bin\Debug\log4net.xml
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Common\obj\Debug\ShopBackEnd.Common.csprojResolveAssemblyReference.cache
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Common\obj\Debug\ShopBackEnd.Common.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Common\obj\Debug\ShopBackEnd.Common.pdb

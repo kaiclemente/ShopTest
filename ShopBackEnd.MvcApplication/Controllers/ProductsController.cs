@@ -4,69 +4,72 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using ShopBackEnd.Common;
 using ShopBackEnd.Model;
 using ShopBackEnd.Business;
+using ShopBackEnd.Model.DTO;
 
 namespace ShopBackEnd.MvcApplication.Controllers
 {
-    public class ProductsController : ApiController
+    public class ProductsController : BaseController<Model.DTO.Product>
     {
         private readonly IProductService _productService;
 
-        public ProductsController(IProductService service)
+        public ProductsController(ILogService loggerService, IProductService service)
+            : base(loggerService,service)
         {
             _productService = service;
         }
 
-        [HttpGet]
-        public Model.DTO.Product Get(int id)
-        {
-            Model.DTO.Product item = _productService.Get(id);
-            if (item == null)
-            {
-                //_loggerService.Logger().WarnFormat("Item with id {0} does not exist", id);
-                throw new HttpResponseException(HttpStatusCode.NotFound);
-            }
-            return item;
-        }
+        //[HttpGet]
+        //public Model.DTO.Product Get(int id)
+        //{
+        //    Model.DTO.Product item = _productService.Get(id);
+        //    if (item == null)
+        //    {
+        //        _loggerService.Logger().WarnFormat("Item with id {0} does not exist", id);
+        //        throw new HttpResponseException(HttpStatusCode.NotFound);
+        //    }
+        //    return item;
+        //}
 
-        [HttpGet]
-        public IEnumerable<Model.DTO.Product> Get()
-        {
-            return _productService.GetAll();
-        }
+        //[HttpGet]
+        //public IEnumerable<Model.DTO.Product> Get()
+        //{
+        //    return _productService.GetAll();
+        //}
 
-        [HttpPut]
-        public HttpResponseMessage Update(int id, Model.DTO.Product item)
-        {
-            item.ID = id;
-            item = _productService.Update(item);
-            var response = Request.CreateResponse<Model.DTO.Product>(HttpStatusCode.OK, item);
+        //[HttpPut]
+        //public HttpResponseMessage Update(int id, Model.DTO.Product item)
+        //{
+        //    item.ID = id;
+        //    item = _productService.Update(item);
+        //    var response = Request.CreateResponse<Model.DTO.Product>(HttpStatusCode.OK, item);
 
-            return response;
-        }
+        //    return response;
+        //}
 
-        [HttpPost]
-        public HttpResponseMessage Insert(Model.DTO.Product item)
-        {
-            item = _productService.Add(item);;
+        //[HttpPost]
+        //public HttpResponseMessage Insert(Model.DTO.Product item)
+        //{
+        //    item = _productService.Add(item);;
 
-            var response = Request.CreateResponse<Model.DTO.Product>(HttpStatusCode.Created, item);
+        //    var response = Request.CreateResponse<Model.DTO.Product>(HttpStatusCode.Created, item);
 
-            string uri = Url.Link("ControllerAndId", new { id = item.ID });
-            response.Headers.Location = new Uri(uri);
+        //    string uri = Url.Link("ControllerAndId", new { id = item.ID });
+        //    response.Headers.Location = new Uri(uri);
 
-            //_loggerService.Logger().InfoFormat("Item created with id {0}", item.Id);
+        //    //_loggerService.Logger().InfoFormat("Item created with id {0}", item.Id);
 
-            return response;
-        }
+        //    return response;
+        //}
 
-        [HttpDelete]
-        public HttpResponseMessage Delete(int id)
-        {
-            _productService.Remove(id);
-            return new HttpResponseMessage(HttpStatusCode.NoContent);
-        }
+        //[HttpDelete]
+        //public HttpResponseMessage Delete(int id)
+        //{
+        //    _productService.Remove(id);
+        //    return new HttpResponseMessage(HttpStatusCode.NoContent);
+        //}
 
 
     }
