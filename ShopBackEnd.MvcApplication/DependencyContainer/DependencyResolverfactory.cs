@@ -13,7 +13,7 @@ using System.Web.Http;
 
 namespace ShopBackEnd.MvcApplication.DependencyContainer
 {
-    public class DependencyResolverfactory
+    public static class DependencyResolverfactory
     {
         public static void ResolveDependency(HttpConfiguration configuration)
         {
@@ -22,6 +22,9 @@ namespace ShopBackEnd.MvcApplication.DependencyContainer
             builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerApiRequest();
 
             //builder.RegisterType<ProductService>().As(typeof(IProductService));
+
+            // Register Automapper engine
+            builder.Register(a => Mapper.Engine).As<IMappingEngine>().InstancePerLifetimeScope();
 
             builder.RegisterAssemblyTypes(AppDomain.CurrentDomain.GetAssemblies())
            .Where(t => t.Name.EndsWith("Service"))
@@ -34,7 +37,7 @@ namespace ShopBackEnd.MvcApplication.DependencyContainer
             InitializeMapperProfiles();
         }
 
-        private static void InitializeMapperProfiles()
+        public static void InitializeMapperProfiles()
         {
             Mapper.Initialize(x => GetConfiguration(Mapper.Configuration));
         }

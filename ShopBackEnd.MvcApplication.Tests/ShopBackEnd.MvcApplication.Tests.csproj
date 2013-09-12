@@ -33,8 +33,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\AutoMapper.3.0.0\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Net4">
+      <HintPath>..\packages\AutoMapper.3.0.0\lib\net40\AutoMapper.Net4.dll</HintPath>
+    </Reference>
+    <Reference Include="FizzWare.NBuilder">
+      <HintPath>..\packages\NBuilder.3.0.1.1\lib\FizzWare.NBuilder.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Moq">
+      <HintPath>..\packages\Moq.4.1.1309.0919\lib\net40\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.2.12296, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.2.6.2\lib\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
@@ -114,7 +130,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Controllers\ValuesControllerTest.cs" />
+    <Compile Include="UnitTest\BaseServiceTest.cs" />
+    <Compile Include="UnitTest\ProductUnitTest.cs" />
+    <Compile Include="UnitTest\SetUpTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
@@ -123,10 +141,25 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ShopBackEnd.Business\ShopBackEnd.Business.csproj">
+      <Project>{fb740050-c867-4d2b-8055-b168978f2600}</Project>
+      <Name>ShopBackEnd.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShopBackEnd.Model\ShopBackEnd.Model.csproj">
+      <Project>{c1641b52-44f8-49d3-b71b-8274987d7dbd}</Project>
+      <Name>ShopBackEnd.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ShopBackEnd.MvcApplication\ShopBackEnd.MvcApplication.csproj">
-      <Project>{D74DED57-2313-4B6E-A710-926ED3265A04}</Project>
+      <Project>{d74ded57-2313-4b6e-a710-926ed3265a04}</Project>
       <Name>ShopBackEnd.MvcApplication</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ShopBackEnd.Repository\ShopBackEnd.Repository.csproj">
+      <Project>{e1625f06-e3e3-4326-bb70-162f980ea39b}</Project>
+      <Name>ShopBackEnd.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -43,7 +43,7 @@ namespace ShopBackEnd.Repository
             _disposed = true;
         }
 
-        public IRepository<T> Repository<T>() where T : class
+        public IRepository<T> Repository<T>() where T : class, new()
         {
             if (_repositories == null)
                 _repositories = new Hashtable();

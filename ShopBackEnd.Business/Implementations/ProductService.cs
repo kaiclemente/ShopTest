@@ -11,31 +11,31 @@ namespace ShopBackEnd.Business
 {
     public class ProductService:IProductService
     {
-        private GenericRepository<Product> productRepository;
-        private IUnitOfWork _unitOfWork;
+        private readonly IProductRepository _productRepository;
+        private readonly ICompositionService _compositionService;
 
-        public ProductService(IUnitOfWork unitOfWork)
+        public ProductService(ICompositionService compositionService, IProductRepository productRepository)
         {
-            _unitOfWork = unitOfWork;
-            productRepository = new GenericRepository<Product>(_unitOfWork.Context);
+            _compositionService = compositionService;
+            _productRepository = productRepository;
         }
 
         public Model.DTO.Product Get(int id)
         {
-            var item = productRepository.FindById(id);
-            return AutoMapper.Mapper.Map<Product, Model.DTO.Product>(item);
+            var item = _productRepository.FindById(id);
+            return _compositionService.Mapper.Map<Product, Model.DTO.Product>(item);
         }
 
         public Model.DTO.Product Add(Model.DTO.Product item)
         {
-            var entity = AutoMapper.Mapper.Map<Model.DTO.Product, Product>(item);
+            var entity = _compositionService.Mapper.Map<Model.DTO.Product, Product>(item);
             using (TransactionScope scope = new TransactionScope())
             {
                 try
                 {
                     entity.State = ObjectState.Added;
-                    productRepository.Insert(entity);
-                    _unitOfWork.Save();
+                    _productRepository.Insert(entity);
+                    _compositionService.UnitOfWork.Save();
                     scope.Complete();
                 }
                 catch (Exception)
@@ -44,31 +44,32 @@ namespace ShopBackEnd.Business
                     throw;
                 }
             }
-            return AutoMapper.Mapper.Map<Product, Model.DTO.Product>(entity);
+            return _compositionService.Mapper.Map<Product, Model.DTO.Product>(entity);
         }
 
         public Model.DTO.Product BestProduct()
         {
-            throw new NotImplementedException();
+            var item = _productRepository.BestProduct();
+            return _compositionService.Mapper.Map<Product, Model.DTO.Product>(item);
         }
 
         public IEnumerable<Model.DTO.Product> GetAll()
         {
-            var list = productRepository.GetAll();
-            return AutoMapper.Mapper.Map<IEnumerable<Product>, IEnumerable<Model.DTO.Product>>(list);
+            var list = _productRepository.GetAll();
+            return _compositionService.Mapper.Map<IEnumerable<Product>, IEnumerable<Model.DTO.Product>>(list);
         }
 
         public Model.DTO.Product Update(Model.DTO.Product item)
         {
-            var existEntity = productRepository.FindById(item.ID);
-            var entity = AutoMapper.Mapper.Map(item, existEntity);
+            var existEntity = _productRepository.FindById(item.ID);
+            var entity = _compositionService.Mapper.Map(item, existEntity);
             using (TransactionScope scope = new TransactionScope())
             {
                 try
                 {
                     entity.State = ObjectState.Modified;
-                    productRepository.Update(entity);
-                    _unitOfWork.Save();
+                    _productRepository.Update(entity);
+                    _compositionService.UnitOfWork.Save();
                     scope.Complete();
                 }
                 catch (Exception)
@@ -78,12 +79,12 @@ namespace ShopBackEnd.Business
                 }
             }
 
-            return AutoMapper.Mapper.Map<Product, Model.DTO.Product>(entity);
+            return _compositionService.Mapper.Map<Product, Model.DTO.Product>(entity);
         }
 
         public bool Remove(int id)
         {
-            var entity = productRepository.FindById(id);
+            var entity = _productRepository.FindById(id);
             if (entity == null)
                 return false;
 
@@ -91,9 +92,9 @@ namespace ShopBackEnd.Business
             {
                 try
                 {
-                    productRepository.Delete(entity);
+                    _productRepository.Delete(entity);
                     entity.State = ObjectState.Deleted;
-                    _unitOfWork.Save();
+                    _compositionService.UnitOfWork.Save();
                     scope.Complete();
                 }
                 catch (Exception)

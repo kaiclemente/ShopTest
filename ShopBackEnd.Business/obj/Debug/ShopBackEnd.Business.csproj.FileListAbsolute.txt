@@ -32,3 +32,5 @@ C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\obj\Debu
 C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\obj\Debug\ShopBackEnd.Business.pdb
 D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\Newtonsoft.Json.dll
 D:\Projects\0. Learning\Tienda\BackEnd\ShopBackEnd.Business\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Frode Kaspersen\Documents\GitHub\ShopTest\ShopBackEnd.Business\bin\Debug\Newtonsoft.Json.xml

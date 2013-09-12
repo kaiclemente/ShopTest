@@ -11,7 +11,7 @@ namespace ShopBackEnd.Repository
     {
         void Dispose();
         void Dispose(bool disposing);
-        IRepository<T> Repository<T>() where T : class;
+        IRepository<T> Repository<T>() where T : class, new();
         IDbContext Context { get; }
         void Save();
     }
